@@ -1,5 +1,5 @@
 
-Script en bash para la descarga y configuración de negrok en termux.
+Script en bash para la descarga y configuración de ngrok en termux.
 
 Asegúrate de tener el token de ngrok antes de ejecutar el instalador.
 
