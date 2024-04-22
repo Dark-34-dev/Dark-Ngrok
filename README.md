@@ -1,5 +1,5 @@
-# PAY-GENERATOR
-Script en bash para la creación de payload con metasploit desde termux 
+
+Script en bash para la descarga y configuración de negrok en termux.
 
 Asegúrate de tener el token de ngrok antes de ejecutar el instalador.
 
