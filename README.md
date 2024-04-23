@@ -20,4 +20,6 @@ Espere que concluya la instalación, luego copie y pege el token de acceso de su
 luego ejecuta: 
 
 `negrok http 8080`
+
+
 Muy bien, si todo ha salido bien usted ya es capaz de utilizar ngrok en su termux sin ningún problema.
