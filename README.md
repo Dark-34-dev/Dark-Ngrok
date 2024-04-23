@@ -1,9 +1,8 @@
+**Script en bash para la descarga y configuración de ngrok en termux.**
 
-Script en bash para la descarga y configuración de ngrok en termux.
+**Asegúrate de tener el token de ngrok antes de ejecutar el instalador.**
 
-Asegúrate de tener el token de ngrok antes de ejecutar el instalador.
-
-uso: 
+**uso:**
 
 `apt install git -y`
 
@@ -15,7 +14,7 @@ uso:
 
 `bash install.sh`
 
-Espere que concluya la instalación, luego copie y pege el token de acceso de su cuenta en negrok.
+**Espere que concluya la instalación, luego copie y pege el token de acceso de su cuenta en negrok.**
 
 luego ejecuta: 
 
