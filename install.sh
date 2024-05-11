@@ -30,11 +30,11 @@ function install {
 	if [ "$opt" == "y" ];then
 		banner
 		echo -e "${c} Instalando Ngrok en su termux......${en}\n"
-		rm $PREFIX/bin/ngrok
-		rm -rf $PREFIX/share/ngrok
-		mkdir -p $PREFIX/share/ngrok
-		cp download.sh $PREFIX/share/ngrok
-		cp ngrok $PREFIX/bin
+		rm $PREFIX/bin/ngrok > /dev/null  2>&1
+		rm -rf $PREFIX/share/ngrok > /dev/null 2>&1
+		mkdir -p $PREFIX/share/ngrok > /dev/null 2>&1
+		cp download.sh $PREFIX/share/ngrok > /dev/null 2>&1
+		cp ngrok $PREFIX/bin > /dev/null 2>&1
 		apt update -y > /dev/null 2>&1 
 		apt upgrade -y > /dev/null 2>&1
 		apt install -y proot > /dev/null 2>&1
